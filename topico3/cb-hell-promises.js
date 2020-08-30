@@ -8,7 +8,7 @@ fsp.readFile('f1.txt', 'utf-8')
         return fsp.readFile(fileName3, 'utf-8');
     })
     .then((fileContent) => {
-        console.log('Conteudo: ', fileContent);
+        console.log('Content: ', fileContent);
     })
     .catch((err) => {
         console.log(err);

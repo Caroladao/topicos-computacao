@@ -1,3 +1,4 @@
+// Esse foi mais lento
 const download = require('download');
 
 const start = new Date();

@@ -1,3 +1,5 @@
+// Esse foi mais rapido, pois ele não esperava o outro arquivo terminar para buscar.
+
 const download = require('download');
 
 (async () => {

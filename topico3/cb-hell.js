@@ -9,7 +9,7 @@ fs.readFile('f1.txt', 'utf-8', (err, fileName2) => {
         fs.readFile(fileName3, 'utf-8', (err, fileContent) => {
             if (err) throw err;
 
-            console.log('Conteudo: ', fileContent);
+            console.log('Content: ', fileContent);
         });
     });
 });
